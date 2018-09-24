@@ -37,7 +37,6 @@ GameObject:
   - component: {fileID: 4693638433737926}
   - component: {fileID: 33338162349413104}
   - component: {fileID: 23246885555419700}
-  - component: {fileID: 136550789165402118}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -125,16 +124,3 @@ MonoBehaviour:
   m_Script: {fileID: -1050975500, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &136550789165402118
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1854940690678690}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
