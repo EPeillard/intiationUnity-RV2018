@@ -9,7 +9,7 @@ public class PlayerController : NetworkBehaviour {
 
     // Use this for initialization
     void Start () {
-        if (!isLocalPlayer)
+        if (FindObjectOfType<NetworkManager>()!=null && !isLocalPlayer)
         {
             gameObject.GetComponentInChildren<Camera>().enabled = false;
             gameObject.GetComponentInChildren<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
